@@ -1,6 +1,8 @@
-baseurl = "https://paperwhy.aerobatic.io/"
+baseurl = "http://texmacs.github.io/blog"
+relativeURLs = true
 languageCode = "en-gb"
 title = "GNU TeXmacs"
+publishDir = "docs"
 # Enable comments by entering a Disqus shortname
 disqusShortname = ""
 # Enable Google Analytics by entering a tracking code
