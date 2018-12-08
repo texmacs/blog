@@ -3,57 +3,57 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://texmacs.github.io/blog/2018/12/08/hello-gnu-texmacs/</loc>
+    <loc>blog/2018/12/08/hello-gnu-texmacs/</loc>
     <lastmod>2018-12-08T21:52:57+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://texmacs.github.io/blog/tags/</loc>
+    <loc>blog/tags/</loc>
     <lastmod>2018-12-08T21:52:57+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://texmacs.github.io/blog/authors/</loc>
-    <lastmod>2018-12-08T21:52:57+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://texmacs.github.io/blog/authors/darcy-shen/</loc>
+    <loc>blog/authors/</loc>
     <lastmod>2018-12-08T21:52:57+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://texmacs.github.io/blog/</loc>
+    <loc>blog/authors/darcy-shen/</loc>
     <lastmod>2018-12-08T21:52:57+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://texmacs.github.io/blog/post/</loc>
+    <loc>blog/</loc>
     <lastmod>2018-12-08T21:52:57+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://texmacs.github.io/blog/authors/darcy_shen/</loc>
-    <lastmod>2018-12-08T21:52:57+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://texmacs.github.io/blog/authors/miguel_de_benito_delgado/</loc>
-    <lastmod>2018-12-08T21:52:57+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://texmacs.github.io/blog/tags/general/</loc>
+    <loc>blog/post/</loc>
     <lastmod>2018-12-08T21:52:57+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://texmacs.github.io/blog/tags/meta/</loc>
+    <loc>blog/authors/darcy_shen/</loc>
+    <lastmod>2018-12-08T21:52:57+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>blog/authors/miguel_de_benito_delgado/</loc>
+    <lastmod>2018-12-08T21:52:57+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>blog/tags/general/</loc>
+    <lastmod>2018-12-08T21:52:57+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>blog/tags/meta/</loc>
     <lastmod>2018-12-08T21:52:57+08:00</lastmod>
     <priority>0</priority>
   </url>

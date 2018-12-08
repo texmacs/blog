@@ -1,4 +1,4 @@
-baseurl = "http://texmacs.github.io/blog/"
+baseurl = "blog/"
 relativeURLs = true
 languageCode = "en-gb"
 title = "GNU TeXmacs"

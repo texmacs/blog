@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts by Darcy on GNU TeXmacs</title>
-    <link>http://texmacs.github.io/blog/authors/darcy_shen/</link>
+    <link>blog/authors/darcy_shen/</link>
     <description>Recent content in Posts by Darcy on GNU TeXmacs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Sat, 08 Dec 2018 21:52:57 +0800</lastBuildDate>
     
-	<atom:link href="http://texmacs.github.io/blog/authors/darcy_shen/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="blog/authors/darcy_shen/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
