@@ -1,0 +1,19 @@
+{{ partial "head" . }}
+
+<body>
+    
+    {{ partial "off-canvas" . }}
+    <div class="site-wrapper">
+        {{ partial "header" . }}
+        <h3 class="list-title" itemprop="name headline">Posts by {{ .Title }}</h3>
+        <div class="single-wrap">
+            {{ .Content  }}
+        </div>
+        <br />
+        {{ partial "post-list" . }}
+        {{ partial "pagination" . }}
+        {{ partial "footer" . }}
+    </div>
+    {{ partial "js" . }}
+</body>
+</html>

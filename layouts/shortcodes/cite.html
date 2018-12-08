@@ -1,0 +1,32 @@
+<span class="{{ if len .Params | eq 2 }}{{ .Get 1 }}{{ else }}citation{{ end }}">
+  {{ $key := .Get 0 }}
+  {{ $posts := where $.Site.RegularPages "Params.paper_key" $key}}
+  {{ if $posts }}
+    {{ $post := index $posts 0 }}
+    <a href="{{ $post.URL }}">{{ $post.Params.linktitle | default $post.Params.title | htmlEscape }}</a>
+  {{ else }}
+    {{ $bib :=  $.Site.Data.bibliography.references}}
+    {{ $entries := where $bib "id" $key }}
+    {{ if $entries }}
+      {{ $entry := index $entries 0 }}
+      {{ $year := (index $entry.issued 0).year }}
+      <span class="citation-title">{{ $entry.title | htmlEscape }}</span>, 
+      <span class="citation-authors">
+        {{ range $i, $author := $entry.author }}
+          {{ $full := printf "%s %s" $author.given $author.family }}
+          {{ $fullrev := printf "%s, %s" $author.family $author.given }}
+          {{ $abbrev := delimit (slice $author.family (substr $author.given 0 1)) ", "}}
+          {{ if (index $.Site.Taxonomies.paper_authors $fullrev) }}
+          <a href="{{ $.Site.BaseURL }}paper_authors/{{ print $fullrev | urlize }}">{{ $abbrev | htmlEscape }}.</a>
+          {{ else }}
+            {{ $abbrev | htmlEscape }}.
+          {{ end }}
+          {{ if lt $i (sub (len $entry.author) 1)}}, {{end}}
+        {{ end }}
+      </span>
+      <span class="citation-date">({{ $year }})</span>
+    {{ else }} 
+      <strong>Wrong citekey: {{ $key }}</strong>
+    {{ end }}
+  {{ end }}
+</span>

@@ -1,0 +1,55 @@
+baseurl = "https://paperwhy.aerobatic.io/"
+languageCode = "en-gb"
+title = "GNU TeXmacs"
+# Enable comments by entering a Disqus shortname
+disqusShortname = ""
+# Enable Google Analytics by entering a tracking code
+googleAnalytics = ""
+theme = ""
+preserveTaxonomyNames = true
+enableGitInfo = true
+FootnoteReturnLinkContents = "<sup>⇧</sup>"
+
+[permalinks]
+	post = "/:year/:month/:day/:slug"
+
+[params]
+        gitRepository = "https://github.com/texmacs/blog"
+	name = "Reflections on GNU TeXmacs"
+	description = "Left blank."
+	copyright = "Built with [HUGO](//gohugo.io) based on [hikari](//github.com/digitalcraftsman/hugo-hikari-theme) - © 2017 the authors"
+
+	# Custom assets can be linked with their paths relative to static/
+	custom_css = []
+	custom_js  = []
+
+	# Links to newer/older blog posts
+	newer = "Newer"
+	older = "Older"
+
+	pageNotFoundTitle = "Page not found"
+	pageNotFoundSubtitle = "Sorry, but the requested page wasn’t <br> found on the server."
+
+[params.offcanvas]
+	# Menu items
+	title = "Left blank."
+	intro = "Left blank."
+
+	# Enable Google search
+	search_enabled = true
+
+[[params.authors]]
+        name = "Miguel de Benito Delgado"
+        thumbnail = "http://texmacs.org/tmweb/contribute/team-miguel.jpg"
+
+[[params.authors]]
+        name = "Darcy Shen"
+        thumbnail = "http://texmacs.org/tmweb/contribute/team-sadhen.jpg"
+
+[[params.authors]]
+        name = "Massimiliano Gubinelli"
+        thumbnail = "http://texmacs.org/tmweb/contribute/team-massimiliano.jpg"
+
+[taxonomies]
+        tag = "tags"
+        author = "authors"

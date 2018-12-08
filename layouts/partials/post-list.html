@@ -1,0 +1,29 @@
+<main>
+    <div id="home">
+        <ul class="posts">
+        {{ $paginator := .Paginate (where .Data.Pages.ByDate.Reverse "Type" "post") 15 }}
+        {{ $bib := $.Site.Data.bibliography.references}}
+        {{ range $paginator.Pages }}
+            <li itemscope itemtype="//schema.org/BlogPosting">
+                <div class="p-wrap">
+                    <time datetime="" itemprop="datePublished">
+                        {{ .Date.Format "02 Jan 06" }}
+                    </time>
+                    <a href="{{ .Permalink }}" itemprop="url">
+                        <p class="post-title" itemprop="name headline">
+                            {{ .Title | truncate 80 "..." }}
+                        </p>
+                    </a>
+                    <p class="post-authors">
+		        {{ range .Params.paper_authors }}
+                        {{ $both := split . "," }}
+                        {{ $name := index $both 1 }}
+                        {{ $surname := index $both 0 }}
+		        {{ end }}
+		    </p>
+                </div>
+            </li>
+        {{ end }}
+        </ul>
+    </div>
+</main>

@@ -1,0 +1,18 @@
+{{ partial "head" . }}
+
+<body>
+    
+    {{ partial "off-canvas" . }}
+    <div class="site-wrapper">
+        {{ partial "header" . }}
+        <h3 class="list-title" itemprop="name headline">All topics</h3>
+        <div class="single-wrap">
+            <p>To do ...</p>
+            {{ .Content }}
+        </div>
+        {{ partial "pagination" . }}
+        {{ partial "footer" . }}
+    </div>
+    {{ partial "js" . }}
+</body>
+</html>

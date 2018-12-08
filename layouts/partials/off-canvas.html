@@ -1,0 +1,45 @@
+<div class="off-canvas">
+    <div class="intro">
+        {{ with .Site.Params.offcanvas.title }}
+        <h1>{{ . }}</h1>
+        {{ end }}
+        {{ with .Site.Params.offcanvas.intro }}
+        <p>{{ . | markdownify }}</p>
+        {{ end }}
+    </div>
+    <nav>
+
+        <!-- This is way too ugly
+        <h6>Topics</h6>
+        <ul class="tag-list">
+            {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+            <li><a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}">{{ humanize $name }}</a></li>
+            {{ end }}
+        </ul>
+        -->
+        <h6>People</h6>
+        <ul class="people-icons">
+            {{ range .Site.Params.authors }}
+            <li><a href="/authors/{{ .name | urlize }}"><img src="{{ .thumbnail }}" />{{ index (split .name " ") 0 }}</a></li>
+            {{ end }}
+        </ul>
+
+        {{ if .Site.Params.offcanvas.search_enabled }}
+        <div class="search">
+            <form name="google-search" method="get" action="http://www.google.com/search" target="_blank">
+                <input type="hidden" name="sitesearch" value="{{ .Site.BaseURL }}" />
+                <input name="q" type="text" />
+                <input type="submit" name="sa" value="Google" />
+            </form>
+        </div>
+
+        {{end}}
+
+        <ul class="link-icons">
+            <li><a class="icon-rss" href="{{ .Site.BaseURL }}index.xml"
+                   alt="RSS feed"></a></li>
+            <li><a class="icon-bitbucket" href="{{ .Site.Params.gitRepository }}"
+                   alt="Source for this site"></a></li>
+        </ul>
+    </nav>
+</div>
