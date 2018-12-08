@@ -1,4 +1,4 @@
-baseUrl = "texmacs.github.io/blog/"
+baseUrl = "https://texmacs.github.io/blog/"
 languageCode = "en-gb"
 title = "GNU TeXmacs"
 publishDir = "docs"

@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on GNU TeXmacs</title>
-    <link>texmacs.github.io/blog/tags/</link>
+    <link>https://texmacs.github.io/blog/tags/</link>
     <description>Recent content in Tags on GNU TeXmacs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Fri, 19 May 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="texmacs.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://texmacs.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>general</title>
-      <link>texmacs.github.io/blog/tags/general/</link>
+      <link>https://texmacs.github.io/blog/tags/general/</link>
       <pubDate>Sat, 08 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>texmacs.github.io/blog/tags/general/</guid>
+      <guid>https://texmacs.github.io/blog/tags/general/</guid>
       <description></description>
     </item>
     
     <item>
       <title>meta</title>
-      <link>texmacs.github.io/blog/tags/meta/</link>
+      <link>https://texmacs.github.io/blog/tags/meta/</link>
       <pubDate>Sat, 08 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>texmacs.github.io/blog/tags/meta/</guid>
+      <guid>https://texmacs.github.io/blog/tags/meta/</guid>
       <description></description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Darcy Shen on GNU TeXmacs</title>
-    <link>texmacs.github.io/blog/authors/darcy-shen/</link>
+    <link>https://texmacs.github.io/blog/authors/darcy-shen/</link>
     <description>Recent content in Darcy Shen on GNU TeXmacs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Sat, 08 Dec 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="texmacs.github.io/blog/authors/darcy-shen/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://texmacs.github.io/blog/authors/darcy-shen/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hello, GNU TeXmacs</title>
-      <link>texmacs.github.io/blog/2018/12/08/hello-gnu-texmacs/</link>
+      <link>https://texmacs.github.io/blog/2018/12/08/hello-gnu-texmacs/</link>
       <pubDate>Sat, 08 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>texmacs.github.io/blog/2018/12/08/hello-gnu-texmacs/</guid>
+      <guid>https://texmacs.github.io/blog/2018/12/08/hello-gnu-texmacs/</guid>
       <description>GNU TeXmacs is a free wysiwyw (what you see is what you want) editing platform with special features for scientists. The software aims to provide a unified and user friendly framework for editing structured documents with different types of content (text, graphics, mathematics, interactive content, etc.). The rendering engine uses high-quality typesetting algorithms so as to produce professionally looking documents, which can either be printed out or presented from a laptop.</description>
     </item>
     
