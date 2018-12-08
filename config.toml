@@ -1,5 +1,4 @@
 baseUrl = "texmacs.github.io/blog/"
-canonifyURLs = true
 languageCode = "en-gb"
 title = "GNU TeXmacs"
 publishDir = "docs"
